@@ -13,7 +13,7 @@ public class Console implements Observer {
 
     @Override
     public void update(Observable arg0, Object arg1) {
-        System.out.println("Grille : ");
+        System.out.println("Grille actuelle : ");
         boolean[][] tab = mygame.getState();
         for(int i = 0; i < tab.length; i++) {
             for(int j = 0; j < tab[i].length; j++) {
